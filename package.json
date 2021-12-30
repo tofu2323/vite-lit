@@ -15,6 +15,7 @@
     "build": "tsc && vite build"
   },
   "dependencies": {
+    "hygen": "^6.1.0",
     "lit": "^2.0.2",
     "prettier": "^2.5.1"
   },
