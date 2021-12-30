@@ -20,7 +20,7 @@ export class ToDoList extends LitElement {
     { text: "Make to-do list", completed: true },
     { text: "Complete Lit tutorial", completed: false },
   ];
-  @property()
+  @property({ type: Boolean })
   hideCompleted = false;
 
   render() {
