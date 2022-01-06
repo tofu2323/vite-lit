@@ -12,7 +12,8 @@
   ],
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build"
+    "build": "tsc && vite build",
+    "component": "hygen lit new"
   },
   "dependencies": {
     "hygen": "^6.1.0",
